@@ -99,8 +99,8 @@ class SVGConfig:
     content_column_height: int = 65
 
     # Font sizes
-    song_font_size: int = 22
-    artist_font_size: int = 16
+    song_font_size: int = 16
+    artist_font_size: int = 10
 
     # Default colors (hex without #)
     default_background: str = "181414"
