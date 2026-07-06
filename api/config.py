@@ -69,8 +69,8 @@ class SVGConfig:
 
     # Dimensions
     width: int = 540
-    height: int = 115
-    album_art_size: int = 121
+    height: int = 100
+    album_art_size: int = 100
     border_radius: int = 5
 
     # Widget container layout (injected into CSS via template variables)
@@ -82,7 +82,7 @@ class SVGConfig:
     art_content_gap: int = 7       # gap between album art and text/bars column
 
     # Equalizer bar area (spacer div that reserves space for SVG bar overlay)
-    eq_spacer_height: int = 45
+    eq_spacer_height: int = 35
     eq_spacer_margin_top: int = 15
 
     # Spacing between song and artist
@@ -90,13 +90,13 @@ class SVGConfig:
 
     # Equalizer bars (SVG rects)
     eq_bar_count: int = 80
-    eq_bar_max_height: int = 45
+    eq_bar_max_height: int = 35
     eq_bar_gap: int = 1
 
     # Estimated height of the content column (song + artist + eq spacer)
     # used to vertically centre the SVG bar rects.
     # song ~26 + artist_margin 4 + artist ~19 + eq_spacer_margin 6 + eq_spacer 25 = 80
-    content_column_height: int = 95
+    content_column_height: int = 85
 
     # Font sizes
     song_font_size: int = 22
