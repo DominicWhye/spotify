@@ -70,7 +70,7 @@ class SVGConfig:
     # Dimensions
     width: int = 540
     height: int = 80
-    album_art_size: int = 60
+    album_art_size: int = 65
     border_radius: int = 5
 
     # Widget container layout (injected into CSS via template variables)
@@ -107,7 +107,7 @@ class SVGConfig:
     default_border: str = "181414"
 
     # Default background type: "color", "blur_dark", or "blur_light"
-    default_background_type: str = "color"
+    default_background_type: str = "blur_dark"
 
     # Blur settings
     blur_amount: int = 20
