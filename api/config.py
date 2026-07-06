@@ -69,7 +69,7 @@ class SVGConfig:
 
     # Dimensions
     width: int = 540
-    height: int = 135
+    height: int = 115
     album_art_size: int = 121
     border_radius: int = 5
 
